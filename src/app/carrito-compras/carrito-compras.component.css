@@ -1,0 +1,25 @@
+/* carrito-compras.component.css */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .card-img-top {
+    height: 200px;
+    object-fit: contain; 
+  }
+  
+  .btn-group {
+    margin-top: 10px;
+  }
+  
+  .alert-info {
+    margin-top: 20px;
+  }
+  

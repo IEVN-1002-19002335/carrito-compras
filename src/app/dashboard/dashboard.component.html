@@ -1,0 +1,20 @@
+<!-- dashboard.component.html -->
+
+<div class="container mt-5">
+    <h2>Dashboard de Administración</h2>
+  
+    <!-- Agregar Producto -->
+    <div class="mb-3">
+      <button class="btn btn-success" (click)="agregarProducto()">Agregar Nuevo Producto</button>
+    </div>
+  
+    <!-- Lista de Productos -->
+    <div *ngFor="let producto of productos" class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ producto.nombre }}</h5>
+        <p class="card-text">Precio: {{ producto.precio | currency:'USD':'symbol':'1.2-2' }}</p>
+        <button class="btn btn-danger" (click)="eliminarProducto(producto)">Eliminar Producto</button>
+      </div>
+    </div>
+  </div>
+  

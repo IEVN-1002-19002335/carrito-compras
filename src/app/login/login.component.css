@@ -1,0 +1,12 @@
+/* iniciar-sesion.component.css */
+
+.card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+  }
+  
